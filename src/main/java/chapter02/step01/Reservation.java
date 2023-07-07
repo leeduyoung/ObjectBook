@@ -1,5 +1,7 @@
 package src.main.java.chapter02.step01;
 
+import java.math.BigDecimal;
+
 public class Reservation {
     private Customer customer;
     private Screening screening;
@@ -11,6 +13,10 @@ public class Reservation {
         this.screening = screening;
         this.fee = fee;
         this.audienceCount = audienceCount;
+    }
+
+    public BigDecimal getFee() {
+        return this.fee.getAmount();
     }
 
     @Override
