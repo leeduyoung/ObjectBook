@@ -1,4 +1,7 @@
-package src.main.java.chapter02.step01;
+package src.main.java.chapter02.step01.pricing;
+
+import src.main.java.chapter02.step01.Screening;
+import src.main.java.chapter02.step01.DiscountCondition;
 
 public class SequenceDiscountCondition implements DiscountCondition {
     private int sequence;

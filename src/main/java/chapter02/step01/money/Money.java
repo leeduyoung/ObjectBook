@@ -1,4 +1,4 @@
-package src.main.java.chapter02.step01;
+package src.main.java.chapter02.step01.money;
 
 import java.math.BigDecimal;
 

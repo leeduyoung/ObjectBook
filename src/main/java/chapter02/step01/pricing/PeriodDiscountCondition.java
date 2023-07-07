@@ -1,4 +1,7 @@
-package src.main.java.chapter02.step01;
+package src.main.java.chapter02.step01.pricing;
+
+import src.main.java.chapter02.step01.DiscountCondition;
+import src.main.java.chapter02.step01.Screening;
 
 import java.time.DayOfWeek;
 import java.time.LocalTime;

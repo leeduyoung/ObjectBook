@@ -1,6 +1,7 @@
 package src.main.java.chapter02.step01;
 
-import java.util.ArrayList;
+import src.main.java.chapter02.step01.money.Money;
+
 import java.util.Arrays;
 import java.util.List;
 

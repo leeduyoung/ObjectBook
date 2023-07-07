@@ -1,6 +1,7 @@
 package src.main.java.chapter02.step01;
 
-import javax.management.Query;
+import src.main.java.chapter02.step01.money.Money;
+
 import java.time.Duration;
 
 public class Movie {

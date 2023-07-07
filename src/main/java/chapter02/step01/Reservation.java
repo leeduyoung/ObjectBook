@@ -1,5 +1,7 @@
 package src.main.java.chapter02.step01;
 
+import src.main.java.chapter02.step01.money.Money;
+
 import java.math.BigDecimal;
 
 public class Reservation {
