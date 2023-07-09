@@ -30,6 +30,12 @@ public class ReservationAgency {
                     discountAmount = movie.getDiscountAmount();
                     break;
                 case PERCENT_DISCOUNT:
+                    /**
+                     * Movie 객체는 getFee() 접근자를 통해 속성을 외부에 제공하고
+                     * 가격이 계산되는걸 바라보고있다.
+                     *
+                     * 이는 Movie 객체가 자신의 데이터를 스스로 처리하도록 개선해야한다. (캡슐화)
+                     */
                     discountAmount = movie.getFee().times(movie.getDiscountPercent());
                     break;
                 default:
